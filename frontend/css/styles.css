@@ -1,0 +1,54 @@
+body {
+    background: #e6e1d9;
+    background: linear-gradient(to right, #022446, #0077ee);
+    background:url('../image/bg-main.jpg') no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+/* Clase para el titulo que tiene el nombre */
+.panel {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+/* Clase para la ultima conexion */
+.conexion {
+    font-size: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Clase para el contenedor del contenido */
+.container-contenido {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-container {
+    color: #ffffff;
+    background-color: #000033;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-control {
+    border: 1px solid #000000;
+    background-color: #0C134F;
+    color: #0099FF;
+}
+
+.form-control:hover, .form-control:focus {
+    background-color: #0066CC; /* Cambia este c贸digo de color al que desees */
+    color: #000000;
+}
+
+@media (min-width: 768px) {
+    .custom-container {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-container {
+        width: 25%;
+    }
+}

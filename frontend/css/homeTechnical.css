@@ -1,0 +1,45 @@
+body {
+    background: #e6e1d9;
+    background: linear-gradient(to right, #022446, #0077ee);
+    background:url('../image/bg-main.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Control de la esquina inferior text area */
+.form-control {
+    resize: none;
+}
+
+/* Tost exito */
+.header-toast-exito {
+    background-color: #0d6efd; /* color primary de Bootstrap 5 */
+    color: #ffffff; 
+}
+
+.body-toast-exito {
+    background-color: #b3d1ff; /* Versión suavizada del color primary */
+    color: #0d6efd; 
+}
+
+/* Tost fallido */
+.header-toast-fallido {
+    background-color: #edd4d4;
+    color: #571515;
+}
+
+.body-toast-fallido {
+    background-color: #ffe6e6;
+    color: #571515; 
+}
+
+.font-title {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-sub-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-body {
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,21 @@
+{
+    "name": "wladimir/bitacora",
+    "description": "A personal proyect.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Wladimir\\Bitacora\\": "libs/"
+        }
+    },
+    "require-dev": {
+        "phpoffice/phpspreadsheet": "^1.29"
+    },
+    "authors": [
+        {
+            "name": "wladimir",
+            "email": "informaticowm@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
